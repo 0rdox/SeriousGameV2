@@ -6,11 +6,6 @@ public class Menu : MonoBehaviour
     public string gameScene;
     public string settingsScene;
     public string logbookScene;
-    
-    void Start()
-    {
-        
-    }
 
     public void StartGame()
     {
