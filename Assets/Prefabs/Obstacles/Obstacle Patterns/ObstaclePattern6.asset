@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e774c7dad6d4e029423d4ce538cfaf1, type: 3}
+  m_Name: ObstaclePattern6
+  m_EditorClassIdentifier: 
+  object0: {fileID: 0}
+  object1: {fileID: 6874662703155594109, guid: 8640646e57c619c4196e12b8bbcae31a, type: 3}
+  object2: {fileID: 6874662703155594109, guid: 8640646e57c619c4196e12b8bbcae31a, type: 3}
