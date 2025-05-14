@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChargeScene.unity
     guid: 693b683c99c8a7e45a97316f5ea959be
+  - enabled: 1
+    path: Assets/Scenes/LogbookScene.unity
+    guid: 7c113db6550c7264ca9d35e5cb99c30e
+  - enabled: 1
+    path: Assets/Scenes/SettingsScene.unity
+    guid: 1112d07773e991947b2cff0ad00308f3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
