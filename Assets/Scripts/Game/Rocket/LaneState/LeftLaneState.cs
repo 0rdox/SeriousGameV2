@@ -8,6 +8,7 @@ public class LeftLaneState : AbstractLaneState
 
     public override void MoveLeft()
     {
+        // Intentionally left empty to prevent moving left when already in the leftmost lane.
     }
 
     public override void MoveRight()
