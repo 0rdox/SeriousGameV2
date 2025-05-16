@@ -15,5 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/ChargeScene.unity
     guid: 693b683c99c8a7e45a97316f5ea959be
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 157260de29d0b0744885399d351b62f2, type: 3}
   m_UseUCBPForAssetBundles: 0
