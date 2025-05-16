@@ -17,6 +17,9 @@ public class GameSettings : MonoBehaviour
     private const string VolumeKey = "game_volume";
     private const string AgeKey = "player_age";
 
+    public int minAge = 5;
+    public int maxAge = 18;
+
     void Start()
     {
         if (serviceLocator == null)
@@ -41,17 +44,28 @@ public class GameSettings : MonoBehaviour
     public void UpdateVolume(float newVolume)
     {
         //audioSource.volume = newVolume;
-        PlayerPrefs.SetFloat(VolumeKey, newVolume);
-        PlayerPrefs.Save();
+        _storage.SaveFloat(VolumeKey, newVolume);
     }
 
     public void UpdateAge(string input)
     {
+
         if (int.TryParse(input, out int newAge))
         {
+            if (newAge < this.minAge || newAge > this.maxAge)
+            {
+                Debug.LogWarning($"Ongeldige leeftijd: {newAge}. Moet tussen {this.minAge} en {this.maxAge} liggen.");
+                // fouttekst tonen
+                return;
+            }
+
             ageDisplayText.text = newAge.ToString();
-            PlayerPrefs.SetInt(AgeKey, newAge);
-            PlayerPrefs.Save();
+            _storage.SaveInt(AgeKey, newAge);
+        }
+        else
+        {
+            Debug.LogWarning($"Kon invoer niet omzetten naar een getal: \"{input}\"");
+            // fouttekst tonen
         }
     }
 
