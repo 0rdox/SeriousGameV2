@@ -4,9 +4,11 @@ using UnityEngine;
 public class ServiceLocator : ScriptableObject
 {
     public GameManager gameManager;
+    public DataStorageManager dataStorageManager;
 
-    public GameManager GetGameManager()
-    {
-        return gameManager;
-    }
+    public GameManager GetGameManager() => gameManager;
+
+    public DataStorageManager GetDataStorageManager() => dataStorageManager;
+
 }
+

@@ -1128,6 +1128,7 @@ MonoBehaviour:
   volumeSlider: {fileID: 1577634240}
   ageInputField: {fileID: 937160872}
   ageDisplayText: {fileID: 1768790038}
+  serviceLocator: {fileID: 11400000, guid: bfdaac1deb381d6408d21aa412d6764d, type: 2}
 --- !u!4 &1687045962
 Transform:
   m_ObjectHideFlags: 0
