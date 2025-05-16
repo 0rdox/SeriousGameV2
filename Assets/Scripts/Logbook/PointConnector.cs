@@ -3,7 +3,7 @@ using UnityEngine;
 public class PointConnector : MonoBehaviour
 {
     //Next game object in path
-    public GameObject? nextPoint;
+    public GameObject nextPoint;
 
     //prefab that connects the paths
     public GameObject connectorPrefab;
@@ -12,8 +12,6 @@ public class PointConnector : MonoBehaviour
     public GameObject parent;
 
     void Start() {
-        if (nextPoint == null) return;
-
         var connector = Instantiate(connectorPrefab, parent.transform);
         this.Connect(transform, nextPoint.transform, connector.transform);
     }
