@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8a6ea9cabc900b4b87889bdd3b7b588, type: 3}
-  m_Name: ServiceLocatorConfig
+  m_Script: {fileID: 11500000, guid: 830f4f11ca04d434f9660ac9b16aab6f, type: 3}
+  m_Name: ScoreManager
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 11400000, guid: 0bc52f4820c614f4791ea62208897224, type: 2}
-  scoreManager: {fileID: 11400000, guid: 4ac5f9ed1ce7d3741aaf06384a380583, type: 2}
+  serviceLocator: {fileID: 11400000, guid: bfdaac1deb381d6408d21aa412d6764d, type: 2}
