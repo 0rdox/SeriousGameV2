@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 public class GameSettings : MonoBehaviour
 {
+    [Header("Volume")]
     public Slider volumeSlider;
     //public AudioSource audioSource;
 
+    [Header("Age")]
     public InputField ageInputField;
     public Text ageDisplayText;
 
+    [Header("Service Config")]
     public ServiceLocator serviceLocator;
     private DataStorageManager _storage;
 
